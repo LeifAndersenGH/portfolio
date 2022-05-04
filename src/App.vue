@@ -21,7 +21,7 @@
         </transition>
       </template>
       <template #pages>
-        <TheLandingPages />
+        <!-- <TheLandingPages /> -->
       </template>
     </component>
   </div>
@@ -37,11 +37,11 @@ import TheSidebar from "@/components/TheSidebar";
 import TheLogo from "@/components/TheLogo";
 import { layouts } from "@/store";
 import { actions } from "@/store/actionsNames";
-import TheLandingPages from "@/components/TheLandingPages";
+// import TheLandingPages from "@/components/TheLandingPages";
 
 export default {
   components: {
-    TheLandingPages,
+    // TheLandingPages,
     TheSidebar,
     TheHeader,
     TheLogo,
@@ -57,9 +57,9 @@ export default {
     },
     layout() {
       const availableLayouts = {
-        [layouts.centered]: CenteredLayout,
+        // [layouts.centered]: CenteredLayout,
         [layouts.sidebar]: SidebarLayout,
-        [layouts.landing]: LandingLayout,
+        [layouts.landing]: SidebarLayout,
       };
 
       const currentLayout = this.$store.state.layout;

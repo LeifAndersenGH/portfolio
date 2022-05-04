@@ -136,7 +136,7 @@ section #services li span {
 import UiTitle from "@/components/ui/UiTitle";
 
 export default {
-  name: "Messages",
+  name: "Links",
   components: { UiTitle },
 };
 </script>

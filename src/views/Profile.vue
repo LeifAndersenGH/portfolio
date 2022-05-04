@@ -57,7 +57,7 @@
 import UiTitle from "@/components/ui/UiTitle";
 
 export default {
-  name: "Links",
+  name: "Projects",
   components: { UiTitle },
 };
 </script>
